@@ -1,4 +1,4 @@
-# College Online Voting System
+# College Online Voting System(Covs)
 
 ## Project Description
 
