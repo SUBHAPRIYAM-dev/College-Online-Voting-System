@@ -48,7 +48,7 @@ The **College Online Voting System** is a web-based platform designed to facilit
    - In the project folder, locate the `config.php` file and update the database credentials:
      ```php
      <?php
-     $conn = new mysqli('localhost', 'root', '', 'college_voting_system');
+     $conn = new mysqli('localhost', 'root', '', 'voting');
      ?>
      ```
 
