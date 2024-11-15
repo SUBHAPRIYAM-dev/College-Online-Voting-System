@@ -41,14 +41,14 @@ The **College Online Voting System** is a web-based platform designed to facilit
    ```
 
 2. **Database Setup:**
-   - Create a MySQL database in your local server (e.g., `college_voting_system`).
-   - Import the provided SQL file (`college_voting_system.sql`) into the created database.
+   - Create a MySQL database in your local server (e.g., `vote`).
+   - Import the provided SQL file (`vote.sql`) into the created database.
 
 3. **Configuration:**
    - In the project folder, locate the `config.php` file and update the database credentials:
      ```php
      <?php
-     $conn = new mysqli('localhost', 'root', '', 'voting');
+     $conn = new mysqli('localhost', 'root', '', 'vote');
      ?>
      ```
 
